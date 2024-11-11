@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import Content from './components/Content';
+import Image from './components/Image';
+import GoodsCard from './components/GoodsCard';
 
-function App() {
+const App = () => {
+  const goods = [
+    { image: "img/apple.webp", name: "Apple", price: "100" },
+    { image: "/img/carrot.webp", name: "Carrot", price: "150" },
+    { image: "/img/kiwi.webp", name: "Kiwi", price: "200" },
+    { image: "/img/pineapple.jpg", name: "Pineapple", price: "250" },
+    { image: "/img/watermelon.jpg", name: "Watermelon", price: "300" },
+    { image: "/img/strawberry.jpg", name: "Strawberry", price: "350" },
+  ];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+        <Header />
+        <Content />
+        <Image />
+        <GoodsCard goods={goods}/>
+      </div>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/frontend-basics-react-lab7/static/css/main.66039be7.css",
+    "main.js": "/frontend-basics-react-lab7/static/js/main.3c14d41c.js",
+    "index.html": "/frontend-basics-react-lab7/index.html",
+    "main.66039be7.css.map": "/frontend-basics-react-lab7/static/css/main.66039be7.css.map",
+    "main.3c14d41c.js.map": "/frontend-basics-react-lab7/static/js/main.3c14d41c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66039be7.css",
+    "static/js/main.3c14d41c.js"
+  ]
+}

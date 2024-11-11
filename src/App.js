@@ -8,11 +8,11 @@ import GoodsCard from './components/GoodsCard';
 const App = () => {
   const goods = [
     { image: "img/apple.webp", name: "Apple", price: "100" },
-    { image: "/img/carrot.webp", name: "Carrot", price: "150" },
-    { image: "/img/kiwi.webp", name: "Kiwi", price: "200" },
-    { image: "/img/pineapple.jpg", name: "Pineapple", price: "250" },
-    { image: "/img/watermelon.jpg", name: "Watermelon", price: "300" },
-    { image: "/img/strawberry.jpg", name: "Strawberry", price: "350" },
+    { image: "img/carrot.webp", name: "Carrot", price: "150" },
+    { image: "img/kiwi.webp", name: "Kiwi", price: "200" },
+    { image: "img/pineapple.jpg", name: "Pineapple", price: "250" },
+    { image: "img/watermelon.jpg", name: "Watermelon", price: "300" },
+    { image: "img/strawberry.jpg", name: "Strawberry", price: "350" },
   ];
 
   return (
